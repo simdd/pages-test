@@ -1,0 +1,43 @@
+{
+  "conf": {
+    "headers": [],
+    "redirects": [],
+    "rewrites": [],
+    "caches": [],
+    "ssr404": true
+  },
+  "ssr404": true,
+  "nextRoutes": [
+    {
+      "path": "/",
+      "isStatic": true,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc"
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    },
+    {
+      "path": "/_not-found"
+    },
+    {
+      "path": "/api/models"
+    },
+    {
+      "path": "/api/ai"
+    },
+    {
+      "path": "/_next/image"
+    }
+  ]
+}
