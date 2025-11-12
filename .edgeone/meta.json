@@ -9,7 +9,7 @@
   "ssr404": true,
   "nextRoutes": [
     {
-      "path": "/a",
+      "path": "/",
       "isStatic": true,
       "srcRoute": "/",
       "dataRoute": "/index.rsc"
